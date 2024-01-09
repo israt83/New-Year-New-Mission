@@ -1,0 +1,53 @@
+body{
+    font-family: 'Merriweather', serif;
+}
+
+.banner-section{
+    
+    background-image: url(images/Banner\ Image.png);
+    background-size: cover;
+    position: absolute; 
+  
+    height: 100vh;
+
+
+   
+   
+   
+    filter: brightness(50%); 
+ 
+    
+  
+      
+}
+h6{
+    color: #FFF;
+    position: relative;
+    top: 50px;   
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px; 
+}
+.new-year-section h1{
+   
+    color: #F00;
+    
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
