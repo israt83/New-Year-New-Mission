@@ -3,21 +3,13 @@ body{
 }
 
 .banner-section{
-    
-    background-image: url(images/Banner\ Image.png);
+
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0)),url(images/Banner\ Image.png);
     background-size: cover;
-    position: absolute; 
-  
-    height: 100vh;
-
-
-   
-   
-   
-    filter: brightness(50%); 
- 
     
-  
+    background-position: center;
+    height: 600px; 
+    width: auto;
       
 }
 h6{
@@ -25,7 +17,7 @@ h6{
     position: relative;
     top: 50px;   
     text-align: center;
-    font-family: Merriweather;
+   
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -34,7 +26,7 @@ h6{
 h1{
     color: #FFF;
     text-align: center;
-    font-family: Merriweather;
+  
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
@@ -45,9 +37,197 @@ h1{
     color: #F00;
     
     text-align: center;
-    font-family: Inter;
+    font-family: Inter ;
     font-size: 88px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
+.new-year-section h5{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.new-year-section h3{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.new-year-section .new-year-img{
+
+    width: 800px;
+    height: 500px;
+    flex-shrink: 0;
+    padding-left: 300px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+
+   
+   
+}
+ .welcome-img{
+    background-image: url(images/Vectorrr.png);
+    background-size: cover;
+   
+    background-position: center;
+    height: 600px;
+    width: auto;
+    
+}
+
+.welcome-section{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.welcome-text{
+    margin-left: 100px;
+
+ 
+}
+.img-2024{
+    margin-top: 40px;
+    margin-right: 100px;
+ 
+}
+.welcome-text,.welcome-title{
+    text-align: left;
+}
+.welcome-section,.welcome-description{
+    color: rgba(255, 255, 255, 0.80);
+   
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+.welcome-section,.btn{
+    margin-left: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.place-section{
+    height: 600px;
+    width: auto;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+
+
+
+}
+  
+    
+
+.place-section-text{
+    margin-bottom: 100px;
+    margin-top: 200px;
+    
+}
+.place-section-text,.h2{
+    
+   
+    color: black;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; 
+    
+
+  
+    
+}
+.btn > .second-btn{
+    
+    padding: 16px 32px;
+   
+    align-items: center;
+    
+    color: #FFF;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #F00; 
+    border: 0;
+  
+   
+
+    
+}
+.portfolio-section{
+    height: 600px; 
+    width: auto;
+    
+ 
+
+}
+.portfolio-text,.h6{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+    
+}
+.portfolio-text, .h4{
+    color: #070211;
+    
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-bottom:10px ;
+    text-align: left;
+}
+.portfolio-text >p{
+    color: rgba(7, 2, 17, 0.60);
+    margin-top: 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+ .portfolio-img{
+    display: grid;
+    grid-template-columns: repeat(3,1);
+    gap: 20px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    
+ 
+
+}
+
+    
+
+
+.footer-section{
+    height: 600px; 
+    width: auto;
+    background-color: #070211;
+    background-position: 0%;
+    margin-top: 800px;
+    
+}
+
+
