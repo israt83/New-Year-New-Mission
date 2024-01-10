@@ -10,32 +10,26 @@ body{
     background-position: center;
     height: 600px; 
     width: auto;
-      
-}
-h6{
-    color: #FFF;
-    position: relative;
-    top: 50px;   
-    text-align: center;
-   
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-h1{
-    color: #FFF;
-    text-align: center;
+    
+    margin-bottom: 50px;
   
-    font-size: 72px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 95px; 
+    
+  
+
 }
+.banner-section,.banner-text{
+    color: #FFF;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
 .new-year-section h1{
    
     color: #F00;
-    
+    margin: 0 auto;
     text-align: center;
     font-family: Inter ;
     font-size: 88px;
@@ -76,6 +70,7 @@ h1{
 }
  .welcome-img{
     background-image: url(images/Vectorrr.png);
+    background-blend-mode: multiply;
     background-size: cover;
    
     background-position: center;
@@ -129,12 +124,13 @@ h1{
 
 
 }
-  
     
 
 .place-section-text{
     margin-bottom: 100px;
     margin-top: 200px;
+    text-align: center;
+    padding-top: 100px;
     
 }
 .place-section-text,.h2{
@@ -146,10 +142,7 @@ h1{
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
-    line-height: 56px; 
-    
-
-  
+    line-height: 56px;  
     
 }
 .btn > .second-btn{
@@ -167,16 +160,11 @@ h1{
     line-height: normal;
     background-color: #F00; 
     border: 0;
-  
-   
-
     
 }
 .portfolio-section{
     height: 600px; 
-    width: auto;
-    
- 
+    width: auto; 
 
 }
 .portfolio-text,.h6{
@@ -187,25 +175,28 @@ h1{
     font-weight: 500;
     line-height: normal;
     text-align: left;
+    margin-left: 20px;
     
 }
 .portfolio-text, .h4{
     color: #070211;
-    
+    margin-left: 20px;
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
     margin-bottom:10px ;
     text-align: left;
+   
 }
 .portfolio-text >p{
     color: rgba(7, 2, 17, 0.60);
-    margin-top: 0;
+    
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    margin-left: 20px;
 }
  .portfolio-img{
     display: grid;
@@ -213,10 +204,73 @@ h1{
     gap: 20px;
     border-radius: 50%;
     margin-bottom: 20px;
+    align-items: center;
+    margin-left: 30px;
+    cursor: pointer;
     
+    margin-bottom: auto;
  
 
 }
+.subscribe-section{
+
+   background-position: center;
+    height: 600px; 
+    width: auto;
+    background-color: #FFF8F3;
+    margin-top: 700px;
+    text-align: center;
+        
+}
+
+
+.subscribe-text > h5{
+    color: #070211;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding-top: 50px;
+ 
+}
+.subscribe-text > p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+ 
+    line-height: 32px;
+}
+.subscribe-section, .subscribe-icon{
+   padding-top: 200px;
+   
+}
+.subscribe-email, .email{
+    width: 230px;
+    height: 50px;
+    
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    border: none;
+
+}
+.subscribe-email, .sub-btn{
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    background-color: #F00;
+    
+   
+
+}
+.subscribe-email{
+    display: flex;
+    justify-content: center;
+    padding: auto;  
+}
+
 
     
 
@@ -226,8 +280,54 @@ h1{
     width: auto;
     background-color: #070211;
     background-position: 0%;
-    margin-top: 800px;
+    margin-top: 100px;
+   
     
 }
+.footer-text{
+
+    justify-content: space-evenly;
+    align-items: center;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    padding-top: 50px;
+}
+.footer-text, .text-call{
+    display: flex;
+     
+}
+.line_section{
+    width: auto;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+  
+}
+.footer-img{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+  
+
+}
+.footer-last-text{
+    justify-content: space-evenly;
+    align-items: center ;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.footer-last-text,.footer-unsubscribe{
+    display: flex;
+}
+
+
 
 
