@@ -207,10 +207,14 @@ body{
     align-items: center;
     margin-left: 30px;
     cursor: pointer;
-    
+    transition: 3s;
     margin-bottom: auto;
  
 
+}
+.portfolio-img :hover{
+    transform: scale(1.2);
+    z-index: 2;
 }
 .subscribe-section{
 
